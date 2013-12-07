@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'multi_encoder/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "multi_encoder"
+  spec.name          = "barcode_encoder"
   spec.version       = MultiEncoder::VERSION
   spec.authors       = ["Juan Alvarez"]
   spec.email         = ["alce@mac.com"]
-  spec.description   = %q{QRCode and Barcode generator for rails}
-  spec.summary       = %q{QRCode and Barcode generator for rails}
-  spec.homepage      = "https://github.com/alce/multi_encoder"
+  spec.description   = %q{Barcode generator for rails at heroku}
+  spec.summary       = %q{Barcode generator for rails at heroku}
+  spec.homepage      = "https://github.com/jyr/barcode_encoder"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
